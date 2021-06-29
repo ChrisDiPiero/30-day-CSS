@@ -3,3 +3,27 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+   .shadow-typo {
+     position: relative;
+     display: inline-block;
+     font-size: 5rem;
+     text-transform: uppercase;
+     color: #00b3b4;
+     text-shadow: 3px 3px 0px #e7eef1, 8px 8px 0px rgba(0,0,0,0.1);
+   }
+
+   .threedee-typo {
+     font-size: 5rem;
+     text-transform: uppercase;
+     color: #f2395a;
+     transform: skew(-5deg, -5deg) rotate(5deg);
+     transform-origin: center center;
+     text-shadow:  1xp 1xp 0 #d10e31,
+                   2xp 2xp 0 #d10e31,
+                   3xp 3xp 0 #d10e31,
+                   4xp 4xp 0 #d10e31,
+                   5xp 5xp 0 #d10e31,
+                   6xp 6xp 0 #d10e31,
+                   7xp 7xp 0 #d10e31;
+   }
